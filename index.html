@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/cfb1c3a969.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="stopwatch">
+            <p>Stop Watch</p>
+
+            <div id="result">
+                <span id="hour">00.</span>
+                <span id="minute">00.</span>
+                <span id="second">00</span>
+            </div>
+            <div class="btns">
+                <button onclick="my_ob.start()"><i class="fa-solid fa-play"></i></button>
+                <button onclick="my_ob.stop()"><i class="fa-solid fa-pause"></i></button>
+                <button onclick="my_ob.reset()"><i class="fa-solid fa-stop"></i></button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
